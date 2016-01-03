@@ -1,0 +1,30 @@
+{
+  "name": "spotify_app",
+  "version": "1.0.0",
+  "description": "my first spotify app",
+  "main": "server.js",
+  "dependencies" : {
+        "express"    : "~4.7.2",
+        "mongoose"   : "~4.1.0",
+        "morgan"     : "~1.2.2",
+        "body-parser": "~1.5.2",
+        "jsonwebtoken": "^5.0.2",
+        "method-override": "~2.1.2",
+        "twilio": "^3.0.0-edge",
+        "angular": "1.4.x",
+        "angular-mocks": "1.4.x",
+        "jquery": "~2.1.1",
+        "bootstrap": "~3.1.1",
+        "angular-route": "1.4.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajuarvind/Spotify-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajuarvind/Spotify-App/issues"
+  },
+  "homepage": "https://github.com/rajuarvind/Spotify-App#readme"
+}

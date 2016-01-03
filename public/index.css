@@ -1,0 +1,193 @@
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  padding:0;
+  margin:0;
+  height:100%;
+  width:100%;
+  color:#dedede;
+  background-color: black;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  opacity: 0.8;
+}
+
+header {
+  width:100%;
+  position:absolute;
+  text-align:center;
+  bottom:20px;
+}
+
+header a, header a:visited {
+  font-size:18px;
+  color:#dedede;
+  text-decoration:none;
+}
+
+header a:hover {
+  text-decoration:underline;
+}
+
+section {
+  height:70%;
+}
+
+section input {
+  display:block;
+  height:52px;
+  width:800px;
+  margin:10px auto;
+  outline:none;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid #2B2B2A;
+  padding:0;
+  font-size:42px;
+  color:#eee;
+}
+
+#messages {
+  background-color:#232323;
+  padding:10px;
+  height: 80%;
+  width:800px;
+  margin:0 auto;
+  overflow-y:auto;
+}
+
+#messages p {
+  margin:5px 0;
+  padding:0;
+}
+
+.info {
+  margin:5px 0;
+  font-style:italic;
+}
+
+.message-container {
+  margin:5px 0;
+  color:#fff;
+}
+
+.message-container .username {
+  display:inline-block;
+  margin-right:5px;
+  font-weight:bold;
+  color:#849091;
+}
+
+.me, .username.me {
+  font-weight:bold;
+  color: #00d95a;
+}
+
+.message-container .username.me {
+  display:inline-block;
+  margin-right:5px;
+}
+
+#login {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1.0 !important;
+  text-align: center;
+}
+
+#login-text {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+#login-button {
+  background-color: #00d95a !important;
+  margin-top: 50px;
+
+}
+
+#playlist-input {
+  display:block;
+  height:52px;
+  width:800px;
+  margin:10px auto;
+  outline:none;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid #2B2B2A;
+  padding:0;
+  font-size:42px;
+  color:#eee;
+  margin-top: 80px;
+
+}
+
+#playlist-form-container {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.8;
+  text-align: center;
+}
+
+#playlist-help-text {
+  margin-top: 50px;
+  border-bottom: 1px dotted white;
+  padding-bottom: 5px;
+}
+
+
+#chat-server-container {
+  background-color: white;
+}
+
+#username-input {
+  display:block;
+  height:52px;
+  width:800px;
+  margin:10px auto;
+  outline:none;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid #2B2B2A;
+  padding:0;
+  font-size:42px;
+  color:#eee;
+  margin-top: 80px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+#showCode {
+  border-bottom: 1px dotted white;
+  padding-bottom: 5px;
+  color: white;
+}
+
+#unique-url {
+  color: #00d95a !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
